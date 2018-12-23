@@ -31,6 +31,7 @@ color:white;
     left: 450px;
 }
 
+	
 </style>
 </head>
 <body>
