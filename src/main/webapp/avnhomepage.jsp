@@ -43,7 +43,7 @@ color:white;
 <h2 align="left" style="position: absolute;top: 80px;left: 328px;color: #4d4d69;">WELCOME TO YOUR ACCOUNT OVERVIEW</h2><br>
 	 <!-- comment -->
 <section class="wlp-login-message-content" style="left: 120px;top: 210px;">
-<b><p style="text-align: center;font-size: 25px;">DIGITAL-TV</p></b>
+<p style="text-align: center;font-size: 25px;">DIGITAL-TV</p>
 <a href="" style="color: white;font-size: 20px;position: absolute;left:65px;">Create</a><br>
 <a href="" style="color: white;font-size: 20px;position: absolute;left:69px;">View</a><br>
 <a href="" style="color: white;font-size: 20px;position: absolute;left:52px;">Configure</a><br>
