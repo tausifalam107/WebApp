@@ -15,8 +15,8 @@ public class ftat {
 	public HtmlUnitDriver driver;
 	//public WebDriver driver;
 	public WebDriverWait wait;
-	public String URL = "http://3.89.123.68:8080/QAWebapp/";
-	public String URL1 = "http://3.89.123.68:8080/QAWebapp/avncreatepage.jsp";
+	public String URL = "http://3.86.248.220:8080/QAWebapp/";
+	public String URL1 = "http://3.86.248.220:8080/QAWebapp/avncreatepage.jsp";
 	//public String URL = "http://localhost:8080/AVNCommunication-1.0/avnlogin.jsp";
 	//public String URL1 = "http://localhost:8080/AVNCommunication-1.0/avncreatepage.jsp";
 	 
@@ -25,19 +25,19 @@ public class ftat {
 	public void logintest() {
 		driver = new HtmlUnitDriver();
 		//driver= new FirefoxDriver();
-		wait = new WebDriverWait(driver, 10);
-		driver.get(URL);
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		//wait = new WebDriverWait(driver, 10);
+		//driver.get(URL);
+		//driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		// Login Page content check
 		//driver.findElement(By.xpath("//h1[text()='JUPITER COMMUNICATION']")).isDisplayed();
-		driver.findElement(By.name("username")).isDisplayed();
-		driver.findElement(By.name("userpassword")).isDisplayed();
-		driver.findElement(By.xpath("//button[text()='Login']")).isDisplayed();
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		//driver.findElement(By.name("username")).isDisplayed();
+		//driver.findElement(By.name("userpassword")).isDisplayed();
+		//driver.findElement(By.xpath("//button[text()='Login']")).isDisplayed();
+		//driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		// Login operation
-		driver.findElement(By.name("username")).sendKeys("guest");
-		driver.findElement(By.name("userpassword")).sendKeys("guest");
-		driver.findElement(By.xpath("//button[text()='Login']")).click();
+		//driver.findElement(By.name("username")).sendKeys("guest");
+		//driver.findElement(By.name("userpassword")).sendKeys("guest");
+		//driver.findElement(By.xpath("//button[text()='Login']")).click();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	}
 }
