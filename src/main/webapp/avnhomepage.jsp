@@ -43,13 +43,13 @@ color:white;
 <h2 align="left" style="position: absolute;top: 80px;left: 328px;color: #4d4d69;">WELCOME TO YOUR ACCOUNT OVERVIEW</h2><br>
 	 <!-- comment -->
 	 <section class="wlp-login-message-content" style="left: 120px;top: 210px;">
-		<p style="text-align: center;font-size: 25px;">DIGITAL-TV</p>
+		 <b><p style="text-align: center;font-size: 25px;">DIGITAL-TV</p></b>
 <a href="" style="color: white;font-size: 20px;position: absolute;left:65px;">Create</a><br>
 <a href="" style="color: white;font-size: 20px;position: absolute;left:69px;">View</a><br>
 <a href="" style="color: white;font-size: 20px;position: absolute;left:52px;">Configure</a><br>
 </section>
 
-<!--<section class="wlp-login-message-content" style="left: 380px;top: 210px;">
+<section class="wlp-login-message-content" style="left: 380px;top: 210px;">
 <b><p style="text-align: center;font-size: 25px;">BROADBAND </p></b>
 <a href="" style="color: white;font-size: 20px;position: absolute;left:67px;">Create</a><br>
 <a href="" style="color: white;font-size: 20px;position: absolute;left:71px;">View</a><br>
@@ -67,14 +67,4 @@ color:white;
 <a href="" style="color: white;font-size: 20px;position: absolute;left:69px;">Create</a><br>
 <a href="" style="color: white;font-size: 20px;position: absolute;left:73px;">View</a><br>
 <a href="" style="color: white;font-size: 20px;position: absolute;left:56px;">Configure</a><br>
-	 </section>-->
-<div>
-</div>
-<div class="text-center">
-   <span id="fullyear">2017</span>
-   &#169; DEVOPS UNION. All Rights Reserved.<br>
-   | India | Singapore | Belgium | USA |
-  </div>
-  </form>
-</body>
-</html>
+	 </section>
